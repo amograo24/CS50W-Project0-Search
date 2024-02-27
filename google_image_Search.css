@@ -1,0 +1,63 @@
+.google_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    padding-top: 10%;
+}
+
+.links {
+    text-align: right
+}
+.link {
+    text-align: right;
+    background-color: #1a73e8;
+    border: #1a73e8;
+    border-radius: 4px;
+    height: 36px;
+    font-family: arial,sans-serif;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 11px;
+    margin-right: 4px;
+    margin-left: 4px;
+    color: white;
+}
+
+#search_bar {
+    border-radius: 30px;
+    width: 570px;
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    border: 1px solid lightgray;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font: arial,sans-serif;
+    font-size: 16px;
+}
+
+
+#search_bar:hover {
+box-shadow: 0 0 6px rgba(33,33,33,.2);
+}
+
+.link:hover {
+    background-color: #297eee;
+    box-shadow: 0 0 3px #297eee;
+    cursor: pointer;
+}
+.search_field {
+    text-align: center;
+}
+
+#search {
+    margin-left: 0.5%;
+}
+#images_under_google {
+    margin-left: 57%;
+    color: #4285f4;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+}

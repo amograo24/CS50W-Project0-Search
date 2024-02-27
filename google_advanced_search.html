@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Google Advanced Search CS50">
+        <meta name="author" content="Amog Rao">
+        <meta name="viewpoint" content="width=device-width, initial scale=1.0">
+        <title>Google Advanced Search</title>
+        <link rel="icon" href="google_icon1.png" type="image/png">
+        <link rel="stylesheet" href="google_advanced_search.css">
+    </head>
+    <body>
+        <header>
+            <div class="links">
+                <div class="grid">
+                    <a href="google_search.html"><img class="google_logo" src="google_logo.png"></a>
+                    <div></div>
+                    <a href="google_search.html"><button class="link">Google Search</button></a>
+                    <a href="google_image_search.html"><button class="link">Image Search</button></a>
+                </div>
+            </div>
+            <div>
+                <p>Advanced Search<p>
+            </div>
+        </header>
+        <main>
+            <p id="find_pages">Find pages with...</p>
+            <div>
+                <form action="https://www.google.com/search">
+                    <table>
+                        <tr>
+                            <td><label>all these words: </label></td>
+                            <td><input class="gg" type="text" name="as_q"></td>
+                        </tr>
+                        <tr>
+                            <td><label>this exact word or phrase: </label></td>
+                            <td><input type="text" name="as_epq"></td>
+                        </tr>
+                        <tr>
+                            <td><label>any of these words: </label></td>
+                            <td><input type="text" name="as_oq"></td>
+                        </tr>
+                        <tr>
+                            <td><label>none of these words: </label></td>
+                            <td><input type="text" name="as_eq"></td>
+                        </tr>
+                    </table>
+                    <div  id="submit">
+                        <input type="submit" value="Advanced Search">
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
